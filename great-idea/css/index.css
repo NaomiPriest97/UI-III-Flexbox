@@ -100,6 +100,7 @@ body nav{
 }
 .title-left{
 	text-align:justify;
+	font-size:20px;
 }
 h1{
 	font-size:30px;
@@ -120,7 +121,7 @@ h1{
 .top-middle1, .top-middle2{
 	display:flex;
 	justify-content:center;
-	flex-direction:row;
+	
 }
 .middle div{
 	display:flex;
@@ -146,9 +147,16 @@ h1{
 	text-align:justify;
 	font-size:20px;
 	border:1px solid yellow;
+	display:flex;
+
 }
+
+
+
 
 
 footer{
 	border-top: 2px solid black;
+	text-align:justify;
+	font-size:20px;
 }
