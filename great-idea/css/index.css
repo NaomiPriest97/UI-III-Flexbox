@@ -70,42 +70,44 @@ h1, h2, h3, h4, h5 {
 
 body{
 	width:100%;
-	text-align:center;
+	text-align:center;	
 }
+
+
+
 .heading {
-display:flex;
-justify-content:space-around;
-}
-.links{
 	display:flex;
-	justify-content:space-between;
-}
-.links, a{
-	width:2%;
-}
+	justify-content:space-around;
+}	
 body nav{
 	width:50%;
 	word-spacing: 3em;
 	color:gray;
 	vertical-align: left;
+	font-size:20px;
 }
-.heading .logo{
-	width:15%;
+.services-header-img{
+	padding-bottom:40px;
+	width: 75%;
 }
+
 .title{
+	padding-bottom:40px;
 	border-bottom:2px solid black;
+	width:75%;
+	text-align:center;
+	
 }
 .title-left{
-	text-align:center;
+	text-align:justify;
 }
-section h1 {
-	font-size: 85px;
+h1{
+	font-size:30px;
 }
+
 
 
 .top-middle1{
-	width: 40%;
-	height:150px;
 	text-align: justify;
 	font-size:20px;
 	border:1px solid gray;
@@ -115,24 +117,32 @@ section h1 {
 	font-size:20px;
 	border:1px solid red;
 }
+.top-middle1, .top-middle2{
+	display:flex;
+	justify-content:center;
+	flex-direction:row;
+}
+.middle div{
+	display:flex;
+	width:40%;
+	flex-direction:column;
+}
 .middle-middle1{
-	width: 100%;
+	text-align:justify;
+	font-size:20px;
 	border:1px solid blue;
 }
 .middle-middle2{
-	width:30%;
 	text-align:justify;
 	font-size:20px;
 	border: 1px solid purple;
 }
 .bottom-middle1{
-	width:30%;
 	text-align:justify;
 	font-size:20px;
 	border:1px solid green;
 }
 .bottom-middle2{
-	width:30%;
 	text-align:justify;
 	font-size:20px;
 	border:1px solid yellow;
