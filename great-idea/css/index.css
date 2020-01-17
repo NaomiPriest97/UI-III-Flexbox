@@ -230,6 +230,8 @@ h1{
 
 footer{
 	border-top: 2px solid black;
+	margin-top:200px;
+	margin-left:40px;
 	text-align:justify;
 	font-size:20px;
 	display:flex;
@@ -240,8 +242,17 @@ footer{
 
 .foot-writing-left{
 	text-align:justify;
-	border:1px solid gray;
 	padding:20px;
-	
-	
+	margin:10px;
+	flex-basis:45%;
+	margin-left:20px;
+}
+ul{
+	list-style-type:disc;
+}
+.services-info-img{
+	padding:20px;
+	margin:10px;
+	flex-basis:45%;
+	margin-left:20px;
 }
