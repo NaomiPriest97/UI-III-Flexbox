@@ -68,6 +68,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+*{
+	border:2px solid gray;
+}
+
 body{
 	width:100%;
 	text-align:center;	
@@ -94,13 +98,16 @@ body nav{
 .title{
 	padding-bottom:40px;
 	border-bottom:2px solid black;
-	width:75%;
+	width:100%;
 	text-align:center;
-	
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 .title-left{
 	text-align:justify;
 	font-size:20px;
+
 }
 h1{
 	font-size:30px;
@@ -108,25 +115,27 @@ h1{
 
 
 
+
+.topmiddle{
+	display:flex;
+	justify-content:space-between;
+}
 .top-middle1{
 	text-align: justify;
 	font-size:20px;
 	border:1px solid gray;
+	padding:20px;
 }
 .top-middle2{
 	text-align:justify;
 	font-size:20px;
 	border:1px solid red;
+	padding:20px;
 }
-.top-middle1, .top-middle2{
+
+.middlemiddle{
 	display:flex;
-	justify-content:center;
-	
-}
-.middle div{
-	display:flex;
-	width:40%;
-	flex-direction:column;
+	justify-content:space-around;
 }
 .middle-middle1{
 	text-align:justify;
@@ -138,16 +147,23 @@ h1{
 	font-size:20px;
 	border: 1px solid purple;
 }
+
+.bottommiddle{
+	display:flex;
+	justify-content:space-around;
+}
 .bottom-middle1{
 	text-align:justify;
 	font-size:20px;
 	border:1px solid green;
+	
 }
 .bottom-middle2{
 	text-align:justify;
 	font-size:20px;
 	border:1px solid yellow;
-	display:flex;
+	
+	
 
 }
 
@@ -159,4 +175,9 @@ footer{
 	border-top: 2px solid black;
 	text-align:justify;
 	font-size:20px;
+	display:flex;
+}
+
+.foot-writing-left{
+	text-align:justify;
 }
