@@ -70,6 +70,8 @@ h1, h2, h3, h4, h5 {
 
 *{
 	border:2px solid gray;
+	margin:10px;
+	box-sizing:border-box;
 }
 
 body{
@@ -90,6 +92,12 @@ body nav{
 	vertical-align: left;
 	font-size:20px;
 }
+.links{
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between;
+	word-spacing: 3em;
+}
 .services-header-img{
 	padding-bottom:40px;
 	width: 75%;
@@ -103,10 +111,15 @@ body nav{
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	
 }
 .title-left{
 	text-align:justify;
 	font-size:20px;
+	border: 1px solid gray;
+	padding:20px;
+	flex-basis:90%;
+	width:50%;
 
 }
 h1{
@@ -114,25 +127,42 @@ h1{
 }
 
 
-
+.middle{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	height:600px;
+	flex:1;
+}
 
 .topmiddle{
 	display:flex;
-	justify-content:space-between;
+	justify-content:space-around;
+	
 }
 .top-middle1{
 	text-align: justify;
 	font-size:20px;
-	border:1px solid gray;
+	border:2px solid black;
 	padding:20px;
+	flex-basis:45%;
+	width:30%;
+	margin: 2px;
+	
 }
 .top-middle2{
 	text-align:justify;
 	font-size:20px;
-	border:1px solid red;
+	border:2px solid black;
 	padding:20px;
+	flex-basis:45%;
+	width:30%;
+	margin:2px;
+	
 }
-
+.middle .topmiddle p{
+	flex:1;
+}
 .middlemiddle{
 	display:flex;
 	justify-content:space-around;
@@ -140,12 +170,23 @@ h1{
 .middle-middle1{
 	text-align:justify;
 	font-size:20px;
-	border:1px solid blue;
+	border:2px solid black;
+	padding:20px;
+	flex-basis:45%;
+	width:30%;
+	margin:2px;
+	
 }
 .middle-middle2{
 	text-align:justify;
 	font-size:20px;
-	border: 1px solid purple;
+	border: 2px solid black;
+	padding:20px;
+	flex-basis:45%;
+	width:30%;
+	margin:2px;
+	
+
 }
 
 .bottommiddle{
@@ -155,16 +196,22 @@ h1{
 .bottom-middle1{
 	text-align:justify;
 	font-size:20px;
-	border:1px solid green;
+	border:2px solid black;
+	padding:20px;
+	flex-basis:45%;
+	width:30%;
+	margin:2px;
 	
 }
 .bottom-middle2{
 	text-align:justify;
 	font-size:20px;
-	border:1px solid yellow;
+	border:2px solid black;
+	padding:20px;
+	flex-basis:45%;
+	width:30%;
+	margin:2px;
 	
-	
-
 }
 
 
@@ -176,8 +223,14 @@ footer{
 	text-align:justify;
 	font-size:20px;
 	display:flex;
+	align-content: space-between;
+	flex-direction:row;
 }
 
 .foot-writing-left{
 	text-align:justify;
+	border:1px solid gray;
+	padding:20px;
+	flex-basis:45%;
+	
 }
